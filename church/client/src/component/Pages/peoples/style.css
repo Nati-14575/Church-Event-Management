@@ -1,0 +1,61 @@
+.bodyContainer {
+  width: 100%;
+  min-height: 600px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bodyContainer h3 {
+  margin: 20px 0;
+  font-size: xx-large;
+}
+
+.bodyContainer h2 {
+  font-size: x-large;
+}
+
+.peoplesList {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.peoplesCard {
+  background-color: rgb(245, 243, 243);
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.profileDetail {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+}
+
+.profileDetail label {
+  font-size: large;
+  font-weight: 500;
+}
+
+.profileImage {
+  width: 45%;
+  height: 150px;
+  border-radius: 80px;
+  margin: auto;
+}
+
+.profileImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 62px;
+}

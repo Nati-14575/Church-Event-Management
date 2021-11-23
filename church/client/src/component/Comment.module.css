@@ -1,0 +1,24 @@
+.comments {
+  display: flex;
+  width: 100%;
+}
+
+.username {
+  padding: 20px;
+  font-weight: bolder;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  max-width: 50%;
+  margin: 10px;
+  background-color: rgba(250, 249, 249, 0.644);
+  display: flex;
+  flex-direction: column;
+}

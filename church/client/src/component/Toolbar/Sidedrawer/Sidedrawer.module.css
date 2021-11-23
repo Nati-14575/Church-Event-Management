@@ -1,0 +1,85 @@
+.side_drawer {
+  height: 60%;
+  background: rgb(206, 192, 192);
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  border-radius: 20;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 300px;
+  z-index: 200;
+}
+
+.UL {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  top: 20%;
+  margin: 0 20px;
+  margin-top: 20%;
+}
+
+.profile {
+  width: 80%;
+  height: 20%;
+  align-self: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.details {
+  width: 100%;
+  height: 30px;
+  font-weight: 600;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editIcon {
+  position: absolute !important;
+  left: 60%;
+  top: 75px;
+}
+
+.options {
+  align-self: center;
+  width: 80%;
+}
+
+.profileAvatar {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50px;
+  background-color: blue !important;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.profileAvatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.LI {
+  margin: 0.5rem 0;
+}
+
+.LI a {
+  color: #383b3d !important;
+}
+
+.side_drawer_link {
+  color: white !important;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.side_drawer_link:hover,
+.side_drawer_link:active {
+  color: orange;
+}
